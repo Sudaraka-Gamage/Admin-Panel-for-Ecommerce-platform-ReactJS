@@ -49,3 +49,61 @@ export const userData = [
       },
     
   ];
+
+  export const userRows = [
+
+    { id: 1, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 2, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 3, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 4, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 5, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 6, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 7, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 8, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+
+             { id: 9, username: 'Jon Snow', 
+             avatar:"./images/image1.jpg", 
+             email:"jon@gmail.com", 
+             status:"active", 
+             transaction:"$120.00"},
+    
+  ];
