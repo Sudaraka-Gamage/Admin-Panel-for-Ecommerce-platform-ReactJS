@@ -3,6 +3,7 @@ import "./sidebar.css"
 import { LineStyle, Timeline, TrendingUp,PersonOutline
          , Storefront, AttachMoney, BarChart, MailOutline, DynamicFeed
         , ChatBubbleOutline, WorkOutline, ReportGmailerrorred  } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
     return (
@@ -37,15 +38,19 @@ export default function Sidebar() {
 
                     <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
+                        <Link to="/users" className="link">
                         <li className="sidebarListItem">
                         <PersonOutline className="sidebarIcon"/>
                         Users
                         </li>
+                        </Link>
 
+                        <Link to="/products" className="link">
                         <li className="sidebarListItem">
                         <Storefront className="sidebarIcon"/>
                         Products
                         </li>
+                        </Link>
 
                         <li className="sidebarListItem">
                         <AttachMoney className="sidebarIcon"/>
