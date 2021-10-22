@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Chart from '../../components/chart/Chart'
 import "./product.css"
 import { productData } from "../../dummyData"
+import { Publish } from '@mui/icons-material'
 
 export default function Product() {
 
@@ -27,7 +28,7 @@ export default function Product() {
 
                 <div className="productTopRight">
                     <div className="productInfoTop">
-                        <img src="" alt="" className="productInfoImg" />
+                        <img src="./images/image1.jpg" alt="" className="productInfoImg" />
                         <span className="productName">Apple Airpods</span>
                     </div>
                     <div className="productInfoBottom">
@@ -47,7 +48,7 @@ export default function Product() {
                         </div>
 
                         <div className="productInfoItem">
-                            <span className="productInfoKey">In Stock</span>
+                            <span className="productInfoKey">In Stock:</span>
                             <span className="productInfoValue">No</span>
                         </div>
                     </div>
@@ -57,6 +58,41 @@ export default function Product() {
 
 
             <div className="productBottom">
+
+                <form action="" className="productForm">
+
+                    <div className="productFormLeft">
+                        <label>Product Name</label>
+                        <input type="text" placeholder="Apple Airpod"/>
+
+                        <label>In Stock</label>
+                        <select name="inStock" id="idStock">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+
+                        </select>
+
+                        <label>Active</label>
+                        <select name="active" id="active">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+
+                        </select>
+
+                    </div>
+
+                    <div className="productFormRight">
+                        <div className="productUpload">
+                            <img src="./images.image5.jpg" alt="" className="productUploadImg" />
+                            <label for="file">
+                                <Publish/>
+                            </label>
+                            <input type="file" id="file" style={{display:"none"}}/> 
+                        </div>
+                        <button className="productButton">Update</button>
+                    </div>
+
+                </form>
 
             </div>
 

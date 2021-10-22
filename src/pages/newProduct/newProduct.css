@@ -1,0 +1,29 @@
+.newProduct{
+    flex: 4;
+}
+.newProductMiddle{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.productUpload{
+    margin-top: 30px;
+}
+.newProductMiddle>label{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.newProductMiddle>input{
+    height: 40px;
+    margin-top: 10px;
+}
+.newProductMiddle>select{
+    margin-top: 10px;
+    height: 40px;
+}
+.productButton{
+    margin-top: 20px;
+    width: 80px;
+    border-radius: 20px;
+}
